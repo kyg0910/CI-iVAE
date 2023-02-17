@@ -1,0 +1,36 @@
+# log configurations
+save_model_path: null
+load_model_path: null
+data_path: "data/realdata/forYK_merged.csv"
+       
+# data configurations
+dim_x: 1178
+n_fold: 5
+u_names: ["sex", "Puberty", "cbcl_scr_syn_internal_t", "cbcl_scr_syn_external_t"]
+v_names: ['ksads_14_853_p', 'nihtbx_flanker_fc', 'nihtbx_totalcomp_fc', 'pea_wiscv_tss', 'tfmri_sst_all_beh_crgo_rt', 'tfmri_nb_all_beh_ctotal_rate']
+dropna: True
+seed_num_datasplit: 0
+
+# optimization configurations
+seed_num_opt: null
+recon_error: True
+init_lr: 0.0002
+num_epoch: 100
+batch_size: 64
+num_worker: 16
+fix_alpha: null
+M: 50
+alpha_step: 0.025
+beta_kl_post_prior: 1.0
+beta_kl_encoded_prior: 1.0
+Adam_beta1: 0.5
+Adam_beta2: 0.999
+weight_decay: 0.0
+
+# architecture configurations
+dim_z: 8
+num_pc: 4
+n_blk: null
+gen_nodes: 2048
+disc: False
+prior_hidden_nodes: 256
