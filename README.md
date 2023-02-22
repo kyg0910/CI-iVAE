@@ -1,9 +1,7 @@
 Covariate-informed Representation Learning to Prevent Posterior Collapse of iVAE
 =====================================
 
-This repository provides python implementation for covariate-informed identifiable variational autoencoders (CI-iVAEs) accepted for AISTATS 2023 [[paper]](http://128.84.21.203/abs/2202.04206).
-
-The code is written in python with dependency in pytorch. For codes to reproduce results in our paper, please see the folder ``experiments``.
+This repository provides python implementation for covariate-informed identifiable variational autoencoders (CI-iVAEs) accepted for AISTATS 2023 [[paper]](http://128.84.21.203/abs/2202.04206). The code is written in python with dependency in pytorch.
 
 ![image_dataset_t_sne](https://user-images.githubusercontent.com/19345323/219812373-6ab2061f-0a97-4787-99a6-d101409e9434.png)
 
