@@ -68,3 +68,4 @@ For implementations to get experimental results in our experiments, please check
 The code worked well with RTX 3090 and Cuda compilation tools, release 11.6, V11.6.124.
 
 ## 3. License
+This project is licensed under the terms of the MIT License. This means you can freely use, modify, and distribute the code, as long as you provide attribution to the original authors and source.
