@@ -1,4 +1,4 @@
-This folder provides code to reproduce results in our paper. The code for simulation is written in python with dependency in Keras, mainly extended from the implementation code for pi-VAE [1]. The code for simulation is written in python with dependency in pytorch. The code for image datasets is mainly extended from the implementation code for GIN [2].
+This folder provides code to reproduce results in our paper. The code for simulation is written in python with dependency in Keras, mainly extended from the implementation code for pi-VAE [1]. The code for real data analysis is written in python with dependency in pytorch. The code for image datasets is mainly extended from the implementation code for GIN [2].
 
 ## 1. Commands to reproduce experimental results
 #### 1.1. Simulation study
